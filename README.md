@@ -99,23 +99,23 @@ The extracted data is saved to:
 Generate 50,000 biographies:
 
 ```bash
-python generate_dataset.py --size 50000
+python dataGenerator.py --size 50000
 ```
 
 ### Advanced Usage
 Generate with custom directories:
 ```bash
-bashCopypython generate_dataset.py --size 100000 --data_dir custom_data --output_dir custom_output
+python dataGenerator.py --size 100000 --data_dir custom_data --output_dir custom_output
 ```
 
 Set specific random seed:
 ```bash
-bashCopypython generate_dataset.py --size 200000 --seed 123
+python dataGenerator.py --size 200000 --seed 123
 ```
 
 Modify batch size:
 ```bash
-bashCopypython generate_dataset.py --size 500000 --batch_size 20000
+python dataGenerator.py --size 500000 --batch_size 20000
 ```
 
 ### Parameters
